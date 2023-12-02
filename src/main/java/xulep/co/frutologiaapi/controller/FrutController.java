@@ -46,11 +46,11 @@ public class FrutController {
         return ResponseEntity.ok(frut);
     }
 
-    @PutMapping
+    @PutMapping("/{id}")
     @Transactional
-    public ResponseEntity<?> update(@RequestBody UpdateFrutDTO data){
+    public ResponseEntity<?> update(@PathVariable("id") Long id, @RequestBody UpdateFrutDTO data){
         try {
-            var frut = service.update(data);
+            var frut = service.update(id, data);
             return new ResponseEntity<>("Fruta atualizada", HttpStatus.OK);
         } catch (Exception exception){
             return new ResponseEntity<>("Erro na requisição", HttpStatus.BAD_REQUEST);
