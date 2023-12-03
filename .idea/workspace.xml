@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96b1087d-1e19-4c7d-be97-837ba9ca7894" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/entity/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/repository/UsuarioRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/service/UsuarioService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/controller/FrutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/controller/FrutController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/infra/security/SecurityConfigurations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/infra/security/SecurityConfigurations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/service/FrutService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/service/FrutService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +35,6 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHome" value="Use Maven wrapper" />
-        <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -43,13 +43,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/Roberto/Desktop/facul/devWeb/ESTOY LOKO/Frutologia-api&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/Roberto/Desktop/facul/devWeb/ESTOY LOKO/Frutologia-api"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="xulep.co.frutologiaapi.DTOs" />

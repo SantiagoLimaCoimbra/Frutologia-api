@@ -15,7 +15,10 @@ import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 
 import java.util.List;
 
+import static org.springframework.security.config.Customizer.withDefaults;
+
 @Configuration
+@EnableWebSecurity
 public class SecurityConfigurations {
 
     @Bean
@@ -40,5 +43,9 @@ public class SecurityConfigurations {
         return source;
     }
 
+    @Bean
+    public PasswordEncoder passwordEncoder() {
+        return new BCryptPasswordEncoder();
+    }
 
 }
