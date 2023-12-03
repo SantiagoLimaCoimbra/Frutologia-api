@@ -28,6 +28,12 @@ public class SecurityConfigurations {
                 .authorizeHttpRequests((authorize) -> authorize
                         .requestMatchers("/fruits/**", "/users").permitAll()
                         .requestMatchers("/fruitsDetails/**", "/users").permitAll()
+                        .requestMatchers(
+                                "/swagger-ui/**",
+                                "/swagger-resources/*",
+                                "/v3/api-docs/**"
+                        ).permitAll()
+
                         .anyRequest().authenticated()).build();
 
     }
