@@ -46,6 +46,12 @@ public class FrutController {
         return ResponseEntity.ok(frut);
     }
 
+//    @GetMapping("/{name}")
+//    public ResponseEntity<?> findByName(@PathVariable String name){
+//        Frut frut = service.findByName(name);
+//        return ResponseEntity.ok(frut);
+//    }
+
     @PutMapping("/{id}")
     @Transactional
     public ResponseEntity<?> update(@PathVariable("id") Long id, @RequestBody UpdateFrutDTO data){

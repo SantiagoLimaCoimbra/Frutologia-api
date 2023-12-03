@@ -43,6 +43,11 @@ public class FrutService {
         return frut;
     }
 
+//    public Frut findByName(String name) {
+//        return repository.findByNome(name)
+//                .orElseThrow(() -> new EntityNotFoundException("Frut not found with name: " + name));
+//    }
+
     //UPDATE
     public Frut update(Long id, UpdateFrutDTO data){
         Frut frut = repository.findById(id).get();
