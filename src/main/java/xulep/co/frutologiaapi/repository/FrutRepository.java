@@ -10,6 +10,6 @@ import java.util.Optional;
 @Repository
 public interface FrutRepository extends JpaRepository<Frut, Long> {
 
-//    Optional<Frut> findByNome(String nome);
+    Frut findByName(String name);
 
 }

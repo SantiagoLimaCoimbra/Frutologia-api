@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b87e0cc3-e0e7-4a60-8b06-84e90bc9a2cf" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/controller/FrutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/controller/FrutController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/repository/FrutRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/repository/FrutRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/service/FrutService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/service/FrutService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/xulep/co/frutologiaapi/controller/FrutController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xulep/co/frutologiaapi/controller/FrutController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/xulep/co/frutologiaapi/repository/FrutRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xulep/co/frutologiaapi/repository/FrutRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/xulep/co/frutologiaapi/service/FrutService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xulep/co/frutologiaapi/service/FrutService.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "git-widget-placeholder": "busca__nome"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xulep.co.frutologiaapi.FrutologiaApiApplication" />
+      <module name="frutologia-api" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+</project>

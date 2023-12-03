@@ -43,6 +43,11 @@ public class FrutService {
         return frut;
     }
 
+    public Frut findFruitByName(String name){
+        Frut frut = repository.findByName(name);
+        return frut;
+    }
+
 //    public Frut findByName(String name) {
 //        return repository.findByNome(name)
 //                .orElseThrow(() -> new EntityNotFoundException("Frut not found with name: " + name));

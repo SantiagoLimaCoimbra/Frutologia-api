@@ -46,11 +46,11 @@ public class FrutController {
         return ResponseEntity.ok(frut);
     }
 
-//    @GetMapping("/{name}")
-//    public ResponseEntity<?> findByName(@PathVariable String name){
-//        Frut frut = service.findByName(name);
-//        return ResponseEntity.ok(frut);
-//    }
+    @GetMapping("/name/{name}")
+    public ResponseEntity<?> findByName(@PathVariable String name){
+        Frut frut = service.findFruitByName(name);
+        return ResponseEntity.ok(frut);
+    }
 
     @PutMapping("/{id}")
     @Transactional
