@@ -2,13 +2,11 @@ package xulep.co.frutologiaapi.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import xulep.co.frutologiaapi.DTOs.Frut.CreateFrutDTO;
-import xulep.co.frutologiaapi.DTOs.Frut.UpdateFrutDTO;
+import xulep.co.frutologiaapi.DTOs.frut.UpdateFrutDTO;
 import xulep.co.frutologiaapi.entity.Frut;
 import xulep.co.frutologiaapi.repository.FrutRepository;
 
 import java.util.List;
-import java.util.Objects;
 
 @Service
 public class FrutService {
@@ -23,11 +21,6 @@ public class FrutService {
         frut.setFamily(data.getFamily());
         frut.setOrder(data.getOrder());
         frut.setGenus(data.getGenus());
-        frut.setCalories(data.getCalories());
-        frut.setFat(data.getFat());
-        frut.setSugar(data.getSugar());
-        frut.setCarbohydrates(data.getCarbohydrates());
-        frut.setProtein(data.getProtein());
 
         repository.save(frut);
         return frut;
@@ -65,22 +58,7 @@ public class FrutService {
 //            frut.setCalories(data.getCalories());
 //        }
 
-        if(data.getCalories() != null){
-            frut.setCalories(data.getCalories());
-        }
 
-        if(data.getFat() != null){
-            frut.setFat(data.getFat());
-        }
-        if(data.getSugar() != null){
-            frut.setSugar(data.getSugar());
-        }
-        if(data.getCarbohydrates() != null){
-            frut.setCarbohydrates(data.getCarbohydrates());
-        }
-        if(data.getProtein() != null){
-            frut.setProtein(data.getProtein());
-        }
 
         repository.save(frut);
         return frut;
