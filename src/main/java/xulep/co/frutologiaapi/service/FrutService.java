@@ -35,12 +35,14 @@ public class FrutService {
     }
 
     //UPDATE
-    public Frut update(UpdateFrutDTO data){
-        var frut = repository.getReferenceById(data.getId());
+    public Frut update(Long id, UpdateFrutDTO data){
+        Frut frut = repository.findById(id).get();
 
         if(data.getName() != null){
             frut.setName(data.getName());
         }
+
+        repository.save(frut);
         return frut;
     }
 
