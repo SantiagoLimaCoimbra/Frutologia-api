@@ -8,6 +8,7 @@ import xulep.co.frutologiaapi.entity.Frut;
 import xulep.co.frutologiaapi.repository.FrutRepository;
 
 import java.util.List;
+import java.util.Objects;
 
 @Service
 public class FrutService {
@@ -19,6 +20,14 @@ public class FrutService {
     public Frut create(CreateFrutDTO data){
         Frut frut = new Frut();
         frut.setName(data.getName());
+        frut.setFamily(data.getFamily());
+        frut.setOrder(data.getOrder());
+        frut.setGenus(data.getGenus());
+        frut.setCalories(data.getCalories());
+        frut.setFat(data.getFat());
+        frut.setSugar(data.getSugar());
+        frut.setCarbohydrates(data.getCarbohydrates());
+        frut.setProtein(data.getProtein());
 
         repository.save(frut);
         return frut;
@@ -40,6 +49,37 @@ public class FrutService {
 
         if(data.getName() != null){
             frut.setName(data.getName());
+        }
+
+        if(data.getFamily() != null){
+            frut.setFamily(data.getFamily());
+        }
+
+        if(data.getOrder() != null){
+            frut.setOrder(data.getOrder());
+        }
+        if(data.getGenus() != null){
+            frut.setGenus(data.getGenus());
+        }
+//        if(data.getCalories() != null && !Objects.equals(data.getCalories(), frut.getCalories())){
+//            frut.setCalories(data.getCalories());
+//        }
+
+        if(data.getCalories() != null){
+            frut.setCalories(data.getCalories());
+        }
+
+        if(data.getFat() != null){
+            frut.setFat(data.getFat());
+        }
+        if(data.getSugar() != null){
+            frut.setSugar(data.getSugar());
+        }
+        if(data.getCarbohydrates() != null){
+            frut.setCarbohydrates(data.getCarbohydrates());
+        }
+        if(data.getProtein() != null){
+            frut.setProtein(data.getProtein());
         }
 
         repository.save(frut);
