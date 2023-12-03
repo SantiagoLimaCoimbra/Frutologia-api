@@ -28,19 +28,4 @@ public class Frut {
     @Column(name = "genus_frut")
     private String genus;
 
-    @Column(name = "calories_frut")
-    private Integer calories;
-
-    @Column(name = "fat_frut")
-    private Double fat;
-
-    @Column(name = "sugar_frut")
-    private Double sugar;
-
-    @Column(name = "carbohydrates_frut")
-    private Double carbohydrates;
-
-    @Column(name = "protein_frut")
-    private Double protein;
-
 }

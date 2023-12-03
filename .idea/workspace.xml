@@ -5,12 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96b1087d-1e19-4c7d-be97-837ba9ca7894" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/entity/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/repository/UsuarioRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/service/UsuarioService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/DTOs/Frut/CreateFrutDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/DTOs/frut/CreateFrutDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/DTOs/Frut/UpdateFrutDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/DTOs/frut/UpdateFrutDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/controller/FrutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/controller/FrutController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/entity/Frut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/entity/Frut.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/infra/security/SecurityConfigurations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/infra/security/SecurityConfigurations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/service/FrutService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/service/FrutService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/xulep/co/frutologiaapi/DTOs/Frut/CreateFrutDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/xulep/co/frutologiaapi/DTOs/Frut/UpdateFrutDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/xulep/co/frutologiaapi/infra/security/SecurityConfigurations.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xulep/co/frutologiaapi/infra/security/SecurityConfigurations.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -39,6 +44,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2XMpyeAdeijVDYVMqaiqQw0Hyda" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -47,8 +55,9 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/Roberto/Desktop/facul/devWeb/ESTOY LOKO/Frutologia-api"
+    "git-widget-placeholder": "um__pra__um",
+    "last_opened_file_path": "C:/Users/laura/.AAProgramacao/2023/site/frutologia/Frutologia-api/src/main/java/xulep/co/frutologiaapi/DTOs/frutDetails",
+    "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -56,8 +65,15 @@
       <recent name="xulep.co.frutologiaapi.DTOs" />
       <recent name="xulep.co.frutologiaapi.DTOs.CreateFrutDTO" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\laura\.AAProgramacao\2023\site\frutologia\Frutologia-api\src\main\java\xulep\co\frutologiaapi\DTOs\frutDetails" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="xulep.co.frutologiaapi.controller" />
+      <recent name="xulep.co.frutologiaapi.service" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.FrutologiaApiApplication">
     <configuration name="FrutologiaApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xulep.co.frutologiaapi.FrutologiaApiApplication" />
       <module name="frutologia-api" />
@@ -80,6 +96,14 @@
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <module name="Frutologia-api" />
       <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FrutologiaApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="frutologia-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="xulep.co.frutologiaapi.FrutologiaApiApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -111,5 +135,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
 </project>

@@ -1,4 +1,4 @@
-package xulep.co.frutologiaapi.DTOs.Frut;
+package xulep.co.frutologiaapi.DTOs.frut;
 
 import lombok.Data;
 
@@ -10,10 +10,5 @@ public class UpdateFrutDTO {
     private String family;
     private String order;
     private String genus;
-    private Integer calories;
-    private Double fat;
-    private Double sugar;
-    private Double carbohydrates;
-    private Double protein;
 
 }

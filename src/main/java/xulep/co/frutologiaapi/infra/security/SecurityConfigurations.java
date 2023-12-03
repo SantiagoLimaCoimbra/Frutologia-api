@@ -27,6 +27,7 @@ public class SecurityConfigurations {
                 .sessionManagement(sm -> sm.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .authorizeHttpRequests((authorize) -> authorize
                         .requestMatchers("/fruits/**", "/users").permitAll()
+                        .requestMatchers("/fruitsDetails/**", "/users").permitAll()
                         .anyRequest().authenticated()).build();
 
     }
