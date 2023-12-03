@@ -6,25 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="96b1087d-1e19-4c7d-be97-837ba9ca7894" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/controller/FrutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/controller/FrutController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/service/FrutService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/service/FrutService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xulep/co/frutologiaapi/DTOs/Frut/CreateFrutDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xulep/co/frutologiaapi/DTOs/Frut/UpdateFrutDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xulep/co/frutologiaapi/DTOs/frutDetails/CreateFrutDetailsDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xulep/co/frutologiaapi/DTOs/frutDetails/UpdateFrutDetailsDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xulep/co/frutologiaapi/DTOs/usuario/CreateUsuarioDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xulep/co/frutologiaapi/controller/FrutController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xulep/co/frutologiaapi/controller/FrutDetailsController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xulep/co/frutologiaapi/entity/Frut.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xulep/co/frutologiaapi/entity/FrutDetails.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xulep/co/frutologiaapi/entity/Usuario.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xulep/co/frutologiaapi/infra/security/SecurityConfigurations.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xulep/co/frutologiaapi/repository/FrutDetailsRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xulep/co/frutologiaapi/repository/FrutRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xulep/co/frutologiaapi/repository/UsuarioRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xulep/co/frutologiaapi/service/FrutDetailsService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xulep/co/frutologiaapi/service/FrutService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xulep/co/frutologiaapi/service/UsuarioService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/controller/FrutDetailsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/controller/FrutDetailsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/xulep/co/frutologiaapi/controller/FrutDetailsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xulep/co/frutologiaapi/controller/FrutDetailsController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,15 +43,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;um__pra__um&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/laura/.AAProgramacao/2023/site/frutologia/Frutologia-api/src/main/java/xulep/co/frutologiaapi/DTOs/frutDetails&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "implementando__migrations",
+    "last_opened_file_path": "C:/Users/laura/.AAProgramacao/2023/site/frutologia/Frutologia-api/src/main/java/xulep/co/frutologiaapi/DTOs/frutDetails",
+    "node.js.selected.package.tslint": "(autodetect)"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="xulep.co.frutologiaapi.DTOs" />
