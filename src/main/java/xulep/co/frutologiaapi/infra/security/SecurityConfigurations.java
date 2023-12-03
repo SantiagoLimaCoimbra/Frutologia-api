@@ -13,6 +13,7 @@ import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.CorsConfigurationSource;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 
+
 import java.util.List;
 
 import static org.springframework.security.config.Customizer.withDefaults;
@@ -27,8 +28,13 @@ public class SecurityConfigurations {
                 .sessionManagement(sm -> sm.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .authorizeHttpRequests((authorize) -> authorize
                         .requestMatchers("/fruits/**", "/users").permitAll()
-                        .anyRequest().authenticated()).build();
+                        .requestMatchers(
+                                "/swagger-ui/**",
+                                "/swagger-resources/*",
+                                "/v3/api-docs/**"
+                        ).permitAll()
 
+                        .anyRequest().authenticated()).build();
     }
 
     @Bean
