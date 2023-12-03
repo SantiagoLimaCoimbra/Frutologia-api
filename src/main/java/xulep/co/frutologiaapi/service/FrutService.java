@@ -2,6 +2,7 @@ package xulep.co.frutologiaapi.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import xulep.co.frutologiaapi.DTOs.frut.CreateFrutDTO;
 import xulep.co.frutologiaapi.DTOs.frut.UpdateFrutDTO;
 import xulep.co.frutologiaapi.entity.Frut;
 import xulep.co.frutologiaapi.repository.FrutRepository;

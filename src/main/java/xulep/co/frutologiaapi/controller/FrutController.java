@@ -7,6 +7,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
+import xulep.co.frutologiaapi.DTOs.frut.CreateFrutDTO;
 import xulep.co.frutologiaapi.DTOs.frut.UpdateFrutDTO;
 import xulep.co.frutologiaapi.entity.Frut;
 import xulep.co.frutologiaapi.service.FrutService;
@@ -16,6 +17,8 @@ import java.util.List;
 @RestController
 @RequestMapping("fruits")
 public class FrutController {
+
+
 
     @Autowired
     private FrutService service;
