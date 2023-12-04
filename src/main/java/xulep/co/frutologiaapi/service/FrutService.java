@@ -88,6 +88,16 @@ public class FrutService {
         return frut;
     }
 
+    public Frut updateName(Long id, UpdateFrutDTO data){
+        Frut frut = repository.findById(id).orElseThrow(() -> new RuntimeException("Fruta não encontrada"));
+
+        if(data.getName() != null){
+            frut.setName(data.getName());
+        }
+        repository.save(frut);
+        return frut;
+    }
+
     //DELETE
     public void delete(Long id){
         repository.deleteById(id);
