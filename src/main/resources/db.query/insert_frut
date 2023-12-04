@@ -1,0 +1,81 @@
+-- Maçã
+INSERT INTO frut (name_frut, family_frut, order_frut, genus_frut, calories_frut, fat_frut, sugar_frut, carbohydrates_frut, protein_frut)
+VALUES ('Maçã', 'Rosaceae', 'Rosales', 'Malus', 52, 0.2, 10.4, 14, 0.3);
+
+-- Banana
+INSERT INTO frut (name_frut, family_frut, order_frut, genus_frut, calories_frut, fat_frut, sugar_frut, carbohydrates_frut, protein_frut)
+VALUES ('Banana', 'Musaceae', 'Zingiberales', 'Musa', 89, 0.3, 12.2, 22.8, 1.1);
+
+-- Morango
+INSERT INTO frut (name_frut, family_frut, order_frut, genus_frut, calories_frut, fat_frut, sugar_frut, carbohydrates_frut, protein_frut)
+VALUES ('Morango', 'Rosaceae', 'Rosales', 'Fragaria', 32, 0.3, 4.9, 7.7, 0.7);
+
+-- Abacaxi
+INSERT INTO frut (name_frut, family_frut, order_frut, genus_frut, calories_frut, fat_frut, sugar_frut, carbohydrates_frut, protein_frut)
+VALUES ('Abacaxi', 'Bromeliaceae', 'Poales', 'Ananas', 50, 0.1, 9.9, 13.1, 0.5);
+
+-- Uva
+INSERT INTO frut (name_frut, family_frut, order_frut, genus_frut, calories_frut, fat_frut, sugar_frut, carbohydrates_frut, protein_frut)
+VALUES ('Uva', 'Vitaceae', 'Vitales', 'Vitis', 69, 0.2, 16.3, 18.1, 0.6);
+
+-- Kiwi
+INSERT INTO frut (name_frut, family_frut, order_frut, genus_frut, calories_frut, fat_frut, sugar_frut, carbohydrates_frut, protein_frut)
+VALUES ('Kiwi', 'Actinidiaceae', 'Ericales', 'Actinidia', 61, 0.5, 8.9, 14.6, 1.1);
+
+-- Pêssego
+INSERT INTO frut (name_frut, family_frut, order_frut, genus_frut, calories_frut, fat_frut, sugar_frut, carbohydrates_frut, protein_frut)
+VALUES ('Pêssego', 'Rosaceae', 'Rosales', 'Prunus', 39, 0.3, 8.4, 9.5, 0.9);
+
+-- Melancia
+INSERT INTO frut (name_frut, family_frut, order_frut, genus_frut, calories_frut, fat_frut, sugar_frut, carbohydrates_frut, protein_frut)
+VALUES ('Melancia', 'Cucurbitaceae', 'Cucurbitales', 'Citrullus', 30, 0.2, 6.2, 7.6, 0.6);
+
+-- Manga
+INSERT INTO frut (name_frut, family_frut, order_frut, genus_frut, calories_frut, fat_frut, sugar_frut, carbohydrates_frut, protein_frut)
+VALUES ('Manga', 'Anacardiaceae', 'Sapindales', 'Mangifera', 60, 0.4, 14.9, 15, 0.8);
+
+-- Cereja
+INSERT INTO frut (name_frut, family_frut, order_frut, genus_frut, calories_frut, fat_frut, sugar_frut, carbohydrates_frut, protein_frut)
+VALUES ('Cereja', 'Rosaceae', 'Rosales', 'Prunus', 50, 0.3, 8.5, 12.2, 1.1);
+
+-- Laranja
+INSERT INTO frut (name_frut, family_frut, order_frut, genus_frut, calories_frut, fat_frut, sugar_frut, carbohydrates_frut, protein_frut)
+VALUES ('Laranja', 'Rutaceae', 'Sapindales', 'Citrus', 43, 0.2, 8.2, 8.3, 1);
+
+-- Limão
+INSERT INTO frut (name_frut, family_frut, order_frut, genus_frut, calories_frut, fat_frut, sugar_frut, carbohydrates_frut, protein_frut)
+VALUES ('Limão', 'Rutaceae', 'Sapindales', 'Citrus', 29, 0.3, 2.5, 9.3, 1.1);
+
+-- Pêra
+INSERT INTO frut (name_frut, family_frut, order_frut, genus_frut, calories_frut, fat_frut, sugar_frut, carbohydrates_frut, protein_frut)
+VALUES ('Pêra', 'Rosaceae', 'Rosales', 'Pyrus', 57, 0.1, 9.8, 15.2, 0.4);
+
+-- Pitaya
+INSERT INTO frut (name_frut, family_frut, order_frut, genus_frut, calories_frut, fat_frut, sugar_frut, carbohydrates_frut, protein_frut)
+VALUES ('Pitaya', 'Cactaceae', 'Caryophyllales', 'Hylocereus', 60, 0.6, 8.2, 13.9, 2);
+
+-- Ameixa
+INSERT INTO frut (name_frut, family_frut, order_frut, genus_frut, calories_frut, fat_frut, sugar_frut, carbohydrates_frut, protein_frut)
+VALUES ('Ameixa', 'Rosaceae', 'Rosales', 'Prunus', 46, 0.3, 9.9, 11.4, 0.7);
+
+-- Abacate
+INSERT INTO frut (name_frut, family_frut, order_frut, genus_frut, calories_frut, fat_frut, sugar_frut, carbohydrates_frut, protein_frut)
+VALUES ('Abacate', 'Lauraceae', 'Laurales', 'Persea', 160, 14.7, 0.2, 8.5, 2);
+
+-- Melão
+INSERT INTO frut (name_frut, family_frut, order_frut, genus_frut, calories_frut, fat_frut, sugar_frut, carbohydrates_frut, protein_frut)
+VALUES ('Melão', 'Cucurbitaceae', 'Cucurbitales', 'Cucumis', 34, 0.2, 8.2, 8.2, 0.9);
+
+-- Nectarina
+INSERT INTO frut (name_frut,
+
+ family_frut, order_frut, genus_frut, calories_frut, fat_frut, sugar_frut, carbohydrates_frut, protein_frut)
+VALUES ('Nectarina', 'Rosaceae', 'Rosales', 'Prunus', 44, 0.3, 8.4, 10.6, 1);
+
+-- Framboesa
+INSERT INTO frut (name_frut, family_frut, order_frut, genus_frut, calories_frut, fat_frut, sugar_frut, carbohydrates_frut, protein_frut)
+VALUES ('Framboesa', 'Rosaceae', 'Rosales', 'Rubus', 52, 0.7, 4.4, 11.9, 1.2);
+
+-- Caju
+INSERT INTO frut (name_frut, family_frut, order_frut, genus_frut, calories_frut, fat_frut, sugar_frut, carbohydrates_frut, protein_frut)
+VALUES ('Caju', 'Anacardiaceae', 'Sapindales', 'Anacardium', 43, 0.9, 3.9, 8.2, 0.9);
