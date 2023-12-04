@@ -26,14 +26,12 @@ public class SecurityConfigurations {
         return http.csrf(AbstractHttpConfigurer::disable).cors(withDefaults())
                 .sessionManagement(sm -> sm.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .authorizeHttpRequests((authorize) -> authorize
-                        .requestMatchers("/fruits/**", "/users").permitAll()
-                        .requestMatchers("/fruitsDetails/**", "/users").permitAll()
+                        .requestMatchers("/fruits/**", "fruits/name/**", "/users").permitAll()
                         .requestMatchers(
                                 "/swagger-ui/**",
                                 "/swagger-resources/*",
                                 "/v3/api-docs/**"
                         ).permitAll()
-
                         .anyRequest().authenticated()).build();
 
     }

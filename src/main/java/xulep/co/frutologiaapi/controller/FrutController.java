@@ -36,9 +36,10 @@ public class FrutController {
         }
     }
 
+
     @GetMapping
-    @Operation(summary = "Retorna uma lista com todas as frutas cadastradas")
-    @Tag(name = "Buscar todas as frutas")
+    @Tag(name = "Buscar frutas")
+    @Operation(summary = "Buscar tudo - Retorna uma lista com todas as frutas cadastradas")
     public ResponseEntity<?> findAll(){
         try {
             List<Frut> list = service.findAll();
@@ -49,11 +50,26 @@ public class FrutController {
     }
 
     @GetMapping("/{id}")
-    @Operation(summary = "Retorna a fruta que corresponde ao id especificado no endpoint")
-    @Tag(name = "Buscar fruta por id")
+    @Tag(name = "Buscar frutas")
+    @Operation(summary = "Busca por id - Retorna a fruta que corresponde ao id especificado no endpoint")
     public ResponseEntity<?> findOne(@PathVariable Long id){
         Frut frut = service.findOne(id);
         return ResponseEntity.ok(frut);
+    }
+
+    @GetMapping("/name/{name}")
+    @Tag(name = "Buscar frutas")
+    @Operation(summary = "Busca por nome -Retorna a fruta que corresponde ao nome especificado no endpoint")
+    public ResponseEntity<?> findByName(@PathVariable String name){
+        try{
+            Frut frut = service.findFruitByName(name);
+            System.out.print(frut);
+            return new ResponseEntity<>(frut, HttpStatus.OK);
+        } catch(Exception exception) {
+            System.out.println(name);
+            return new ResponseEntity<>("Erro na requisição", HttpStatus.BAD_GATEWAY);
+
+        }
     }
 
     @PutMapping("/{id}")
