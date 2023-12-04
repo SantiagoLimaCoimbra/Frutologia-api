@@ -5,13 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96b1087d-1e19-4c7d-be97-837ba9ca7894" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/infra/security/JWTAuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/infra/security/JWTValidateFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/infra/security/UserDetailsCustom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/infra/security/UserDetailsServiceCustom.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/DTOs/usuario/CreateUsuarioDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/DTOs/usuario/CreateUserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/entity/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/infra/security/JWTAuthenticationFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/infra/security/JWTValidateFilter.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/infra/security/SecurityConfigurations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/infra/security/SecurityConfigurations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/infra/security/UserDetailsCustom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/infra/security/UserDetailsServiceCustom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/repository/UsuarioRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/service/UsuarioService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/xulep/co/frutologiaapi/DTOs/usuario/CreateUsuarioDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/xulep/co/frutologiaapi/entity/Usuario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/xulep/co/frutologiaapi/infra/security/JWTAuthenticationFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/xulep/co/frutologiaapi/infra/security/JWTValidateFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/xulep/co/frutologiaapi/infra/security/SecurityConfigurations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/xulep/co/frutologiaapi/infra/security/UserDetailsCustom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/xulep/co/frutologiaapi/infra/security/UserDetailsServiceCustom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/xulep/co/frutologiaapi/repository/UsuarioRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/xulep/co/frutologiaapi/service/UsuarioService.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +37,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -40,6 +56,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2XMpyeAdeijVDYVMqaiqQw0Hyda" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -54,6 +73,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="xulep.co.frutologiaapi.entity" />
       <recent name="xulep.co.frutologiaapi.DTOs" />
       <recent name="xulep.co.frutologiaapi.DTOs.CreateFrutDTO" />
     </key>
@@ -107,7 +127,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="usuario_seguranca" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
