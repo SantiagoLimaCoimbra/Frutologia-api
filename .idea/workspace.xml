@@ -6,24 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="96b1087d-1e19-4c7d-be97-837ba9ca7894" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/DTOs/frutDetails/CreateFrutDetailsDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/DTOs/frutDetails/UpdateFrutDetailsDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/controller/FrutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/controller/FrutController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/controller/FrutDetailsController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/entity/Frut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/entity/Frut.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/entity/FrutDetails.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/infra/security/SecurityConfigurations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/infra/security/SecurityConfigurations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/repository/FrutDetailsRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/repository/FrutRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/repository/FrutRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/service/FrutDetailsService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/service/FrutService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/service/FrutService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xulep/co/frutologiaapi/controller/FrutController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xulep/co/frutologiaapi/controller/FrutController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xulep/co/frutologiaapi/entity/Frut.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xulep/co/frutologiaapi/entity/Frut.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xulep/co/frutologiaapi/infra/security/SecurityConfigurations.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xulep/co/frutologiaapi/infra/security/SecurityConfigurations.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xulep/co/frutologiaapi/repository/FrutRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xulep/co/frutologiaapi/repository/FrutRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xulep/co/frutologiaapi/service/FrutService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xulep/co/frutologiaapi/service/FrutService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +45,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "busca__nome__fruta",
+    "git-widget-placeholder": "migrations",
     "last_opened_file_path": "C:/Users/laura/.AAProgramacao/2023/site/frutologia/Frutologia-api/src/main/java/xulep/co/frutologiaapi/DTOs/frutDetails",
     "node.js.selected.package.tslint": "(autodetect)"
   }
@@ -118,6 +100,7 @@
     </configuration>
     <list>
       <item itemvalue="Application.FrutologiaApiApplication" />
+      <item itemvalue="Spring Boot.FrutologiaApiApplication" />
     </list>
     <recent_temporary>
       <list>
