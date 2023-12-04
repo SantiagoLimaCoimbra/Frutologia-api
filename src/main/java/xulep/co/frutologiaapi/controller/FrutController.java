@@ -74,7 +74,7 @@ public class FrutController {
 
     @PutMapping("/{id}")
     @Transactional
-    @Operation(summary = "Retorna a fruta que corresponde ao id especificado no endpoint possibilitando sua edição")
+    @Operation(summary = "Editar fruta - Retorna a fruta que corresponde ao id especificado no endpoint possibilitando sua edição")
     @Tag(name = "Editar fruta")
     public ResponseEntity<?> update(@PathVariable("id") Long id, @RequestBody UpdateFrutDTO data){
         try {
@@ -86,7 +86,7 @@ public class FrutController {
     }
 
     @PatchMapping("/{id}")
-    @Operation(summary = "Retorna a fruta que corresponde ao id especificado no endpoint possibilitando a edição do nome")
+    @Operation(summary = "Editar nome da fruta - Retorna a fruta que corresponde ao id especificado no endpoint possibilitando a edição do nome")
     @Tag(name = "Editar fruta")
     public ResponseEntity<?> updateName(@RequestBody UpdateFrutDTO updateFrutDTO, @PathVariable Long id){
         try {

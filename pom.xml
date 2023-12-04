@@ -38,6 +38,7 @@
 			<optional>true</optional>
 		</dependency>
 
+
 		<!-- MY SQL
 		<dependency>
 			<groupId>com.mysql</groupId>
@@ -47,9 +48,17 @@
 
 		<!-- POSTGRES -->
 		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+
+
+		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
+
 
 		<dependency>
 			<groupId>com.auth0</groupId>

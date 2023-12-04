@@ -1,8 +1,7 @@
 package xulep.co.frutologiaapi.controller;
 
-import br.senai.sc.edu.aulaapi.model.Usuario;
-import br.senai.sc.edu.aulaapi.model.dto.NovoUsuario;
-import br.senai.sc.edu.aulaapi.service.UsuarioService;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -22,6 +21,8 @@ public class UsuarioController {
     private UsuarioService usuarioService;
 
     @PostMapping("/add")
+    @Operation(summary = "Adiciona um novo usuario no banco")
+    @Tag(name = "Adicionar usuário")
     public ResponseEntity<?> salvar(@RequestBody CreateUsuarioDTO data){
         Usuario usuario = usuarioService.create(data);
         return new ResponseEntity(usuario, HttpStatus.CREATED);
