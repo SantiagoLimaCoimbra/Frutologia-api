@@ -6,10 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="96b1087d-1e19-4c7d-be97-837ba9ca7894" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/controller/FrutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/controller/FrutController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/service/FrutService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/service/FrutService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xulep/co/frutologiaapi/controller/FrutController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xulep/co/frutologiaapi/controller/FrutController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xulep/co/frutologiaapi/service/FrutService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xulep/co/frutologiaapi/service/FrutService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frutologia-api.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/infra/security/SecurityFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xulep/co/frutologiaapi/infra/security/SecurityFilter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +25,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="01cc0362-5d2e-441e-94fe-d3059fd2ad96" />
+        <option name="url" value="https://github.com/SantiagoLimaCoimbra/Frutologia-api.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -48,24 +60,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "metodo__patch__nome",
-    "last_opened_file_path": "C:/Users/laura/.AAProgramacao/2023/site/frutologia/Frutologia-api/src/main/java/xulep/co/frutologiaapi/DTOs/frutDetails",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "spring.configuration.checksum": "d0f3c838e1bb040a93802ae8e0da0418",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;metodo__patch__nome&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/laura/.AAProgramacao/2023/site/frutologia/Frutologia-api/src/main/java/xulep/co/frutologiaapi/DTOs/frutDetails&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;d0f3c838e1bb040a93802ae8e0da0418&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="xulep.co.frutologiaapi.DTOs" />
@@ -79,7 +91,7 @@
       <recent name="xulep.co.frutologiaapi.service" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.FrutologiaApiApplication">
+  <component name="RunManager" selected="Application.FrutologiaApiApplication">
     <configuration name="FrutologiaApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xulep.co.frutologiaapi.FrutologiaApiApplication" />
       <module name="frutologia-api" />
@@ -116,7 +128,6 @@
     </configuration>
     <list>
       <item itemvalue="Application.FrutologiaApiApplication" />
-      <item itemvalue="Spring Boot.FrutologiaApiApplication" />
     </list>
     <recent_temporary>
       <list>
