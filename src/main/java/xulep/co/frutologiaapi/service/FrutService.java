@@ -22,10 +22,16 @@ public class FrutService {
         frut.setFamily(data.getFamily());
         frut.setOrder(data.getOrder());
         frut.setGenus(data.getGenus());
+        frut.setCalories(data.getCalories());
+        frut.setFat(data.getFat());
+        frut.setSugar(data.getSugar());
+        frut.setCarbohydrates(data.getCarbohydrates());
+        frut.setProtein(data.getProtein());
 
         repository.save(frut);
         return frut;
     }
+
 
     //READ
     public List<Frut> findAll(){
@@ -34,6 +40,11 @@ public class FrutService {
 
     public Frut findOne(Long id){
         Frut frut = repository.findById(id).get();
+        return frut;
+    }
+
+    public Frut findFruitByName(String name){
+        Frut frut = repository.findByName(name);
         return frut;
     }
 
@@ -55,11 +66,23 @@ public class FrutService {
         if(data.getGenus() != null){
             frut.setGenus(data.getGenus());
         }
-//        if(data.getCalories() != null && !Objects.equals(data.getCalories(), frut.getCalories())){
-//            frut.setCalories(data.getCalories());
-//        }
 
+        if(data.getCalories() != null){
+            frut.setCalories(data.getCalories());
+        }
 
+        if(data.getFat() != null){
+            frut.setFat(data.getFat());
+        }
+        if(data.getSugar() != null){
+            frut.setSugar(data.getSugar());
+        }
+        if(data.getCarbohydrates() != null){
+            frut.setCarbohydrates(data.getCarbohydrates());
+        }
+        if(data.getProtein() != null){
+            frut.setProtein(data.getProtein());
+        }
 
         repository.save(frut);
         return frut;
