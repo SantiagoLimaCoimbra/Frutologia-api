@@ -85,6 +85,18 @@ public class FrutController {
         }
     }
 
+    @PatchMapping("/{id}")
+    @Operation(summary = "Retorna a fruta que corresponde ao id especificado no endpoint possibilitando a edição do nome")
+    @Tag(name = "Editar fruta")
+    public ResponseEntity<?> updateName(@RequestBody UpdateFrutDTO updateFrutDTO, @PathVariable Long id){
+        try {
+            Frut updatedFrut = service.updateName(id, updateFrutDTO);
+            return new ResponseEntity<>("Fruta atualizada", HttpStatus.OK);
+        } catch (Exception exception){
+            return new ResponseEntity<>("Erro na requisição", HttpStatus.BAD_REQUEST);
+        }
+    }
+
     @DeleteMapping("/{id}")
     @Transactional
     @Operation(summary = "Deleta a fruta que corresponde ao id especificado no endpoint")
@@ -97,5 +109,7 @@ public class FrutController {
             return new ResponseEntity<>("Erro na requisição", HttpStatus.BAD_REQUEST);
         }
     }
+
+
 
 }
